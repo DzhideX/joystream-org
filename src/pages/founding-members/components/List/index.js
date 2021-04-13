@@ -32,9 +32,9 @@ const Card = ({ founderData, partialTokenAllocation }) => {
           <p className="FoundingMembersPage__card__score__stat">{founderData?.totalScore}</p>
         </div>
         <div className="FoundingMembersPage__card__score">
-          <p className="FoundingMembersPage__card__score__title">Tokens allocated / projected</p>
+          <p className="FoundingMembersPage__card__score__title">Tokens allocated</p>
           <p className="FoundingMembersPage__card__score__stat">
-            {calculateTokensAllocated(founderData?.extraAllocation, founderData?.totalScore, partialTokenAllocation)}
+            {calculateTokensAllocated(founderData?.extraAllocation)}
           </p>
         </div>
       </div>

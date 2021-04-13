@@ -39,7 +39,7 @@ const MetricsRowData = ({ data, founding, partialTokenAllocation }) => {
       {founding && (
         <div style={{ justifySelf: 'center' }} className="FoundingMembersPage__leaderboard__score">
           <p>
-            {calculateTokensAllocated(data?.extraAllocation, data?.totalScore, partialTokenAllocation)}
+            {calculateTokensAllocated(data?.extraAllocation)}
           </p>
         </div>
       )}
@@ -83,7 +83,7 @@ const Metrics = ({ foundingMembers, nonFoundingMembers, sizeOfFirstTokenPool, pa
           <Table className="FoundingMembersPage__leaderboard">
             <Table.Header className="FoundingMembersPage__leaderboard__header FoundingMembersPage__leaderboard__header--founding">
               <Table.HeaderItem></Table.HeaderItem>
-              <Table.HeaderItem textAlign="center">Tokens allocated / projected</Table.HeaderItem>
+              <Table.HeaderItem textAlign="center">Tokens allocated</Table.HeaderItem>
               <Table.HeaderItem textAlign="right">Total score</Table.HeaderItem>
             </Table.Header>
             <Table.Body className="FoundingMembersPage__leaderboard__body">
