@@ -1,11 +1,11 @@
 {
   "sumer": {
-    "siteMetadata": {
-      "description": "Explore the Sumer testnet"
+    "siteMetadata": { // Translate the places with the arrows
+      "description": "Explore the Sumer testnet" // <-
     },
     "hero": {
-      "title": "Sumer Network",
-      "text": "Among other changes, the Sumer testnet release offers major improvements to content uploads through our playback app."
+      "title": "Sumer Network", // <-
+      "text": "Among other changes, the Sumer testnet release offers major improvements to content uploads through our playback app." // <-
     },
     "criticalDocuments": {
       "title": "Critical Documents",
